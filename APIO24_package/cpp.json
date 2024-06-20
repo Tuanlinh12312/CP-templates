@@ -1,0 +1,33 @@
+{
+    "Code template": {
+        "prefix": "`template",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "#define ld long double",
+            "#define ll long long",
+            "#define pll pair<ll, ll>",
+            "#define mp make_pair", 
+            "#define fi first",
+            "#define se second", 
+            "#define pb push_back", 
+            "#define sz(a) ((ll)(a).size())",
+            "using namespace std;",
+            "",
+            "int main()",
+            "{",
+            "\tios_base::sync_with_stdio(0);",
+            "\tcin.tie(0), cout.tie(0);",
+            "\tfreopen(\"input.txt\", \"r\", stdin);",
+            "\tfreopen(\"output.txt\", \"w\", stdout);",
+            "\t$0",
+            "}",
+        ],
+    },
+    "Freopen": {
+        "prefix": "`freopen",
+        "body": [
+            "freopen(\"input.txt\", \"r\", stdin);",
+            "freopen(\"output.txt\", \"w\", stdout);",
+        ],
+    }
+}
